@@ -22,3 +22,7 @@ Micrometer adds richer meter primitives to the counters and gauges that existed 
 13. Logback: record the number of events logged to Logback at each level
 14. Uptime: report a gauge for uptime and a fixed gauge representing the application’s absolute start time
 15. Tomcat usage
+
+## Metrics Endpoints
+
+By default spring boot provides all endpoints at /actuator which list all the endpoints available. Default /actuator/prometheus endpoints is enabled to emit the system metrics.
