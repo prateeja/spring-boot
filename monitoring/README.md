@@ -5,34 +5,20 @@ Micrometer is the metrics collection facility included in Spring Boot 2’s Actu
 
 Micrometer adds richer meter primitives to the counters and gauges that existed in Spring Boot 1. For example, a single Micrometer Timer is capable of producing time series related to throughput, total time, maximum latency of recent samples, pre-computed percentiles, percentile histograms, and SLA boundary counts.
 
-Spring Boot 2 autoconfigures quite a few metrics for you, including:
+## Spring Boot 2 autoconfigures quite a few metrics for you, including:
 
-JVM, report utilization of:
-
-Various memory and buffer pools
-
-Statistics related to garbage collection
-
-Thread utilization
-
-Number of classes loaded/unloaded
-
-CPU usage
-
-Spring MVC and WebFlux request latencies
-
-RestTemplate latencies
-
-Cache utilization
-
-Datasource utilization, including HikariCP pool metrics
-
-RabbitMQ connection factories
-
-File descriptor usage
-
-Logback: record the number of events logged to Logback at each level
-
-Uptime: report a gauge for uptime and a fixed gauge representing the application’s absolute start time
-
-Tomcat usage
+1. JVM, report utilization of:
+2. Various memory and buffer pools
+3. Statistics related to garbage collection
+4. Thread utilization
+5. Number of classes loaded/unloaded
+6. CPU usage
+7. Spring MVC and WebFlux request latencies
+8. RestTemplate latencies
+9. Cache utilization
+10. Datasource utilization, including HikariCP pool metrics
+11. RabbitMQ connection factories
+12. File descriptor usage
+13. Logback: record the number of events logged to Logback at each level
+14. Uptime: report a gauge for uptime and a fixed gauge representing the application’s absolute start time
+15. Tomcat usage
